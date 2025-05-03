@@ -1,0 +1,18 @@
+services:
+    crucible:
+        image: serverwrapper-fabric:1.21.4-v5.6.11
+        restart: always
+        stdin_open: true
+        tty: true
+        environment:
+            SERVERWRAPPER_ADDRESS: "ws://host.docker.internal:9274/api"
+            SERVERWRAPPER_CHECK_SERVER_TOKEN: "TOKEN"
+            _JAVA_OPTIONS: "-Xmx2G"
+        extra_hosts:
+            - "host.docker.internal:host-gateway"
+        ports:
+            - 25565:25565
+        volumes:
+        - data:/app/data
+volumes:
+    data:

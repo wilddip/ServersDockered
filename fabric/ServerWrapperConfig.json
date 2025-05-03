@@ -1,0 +1,30 @@
+{
+  "address": "ws://gravitlauncher:9274/api",
+  "serverName": "Fabric1.20.4",
+  "autoloadLibraries": false,
+  "classpath": [
+    "/app/server.jar"
+  ],
+  "classLoaderConfig": "LAUNCHER",
+  "mainclass": "net.fabricmc.installer.ServerLauncher",
+  "nativesDir": "natives",
+  "args": ["nogui"],
+  "oauthExpireTime": 0,
+  "extendedTokens": {
+  },
+  "env": "STD",
+  "moduleConf": {
+    "modules": [],
+    "modulePath": [],
+    "exports": {},
+    "opens": {},
+    "reads": {}
+  },
+  "enableHacks": false,
+  "properties": {},
+  "configServiceSettings": {
+    "disableLogging": false,
+    "checkServerNeedProperties": false,
+    "checkServerNeedHardware": false
+  }
+}

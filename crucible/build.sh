@@ -1,0 +1,6 @@
+#!/bin/bash
+
+LAUNCHER_VERSION=v5.6.11
+CRUCIBLE_HASH=ec0120a
+
+docker build --build-arg CRUCIBLE_HASH=$CRUCIBLE_HASH --build-arg LAUNCHER_VERSION=$LAUNCHER_VERSION -t serverwrapper-crucible:$CRUCIBLE_HASH-$LAUNCHER_VERSION .

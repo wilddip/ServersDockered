@@ -1,0 +1,28 @@
+{
+  "address": "ws://gravitlauncher:9274/api",
+  "serverName": "Forge1.7.10",
+  "autoloadLibraries": false,
+  "classpath": [],
+  "classLoaderConfig": "SYSTEM_ARGS",
+  "mainclass": "net.minecraftforge.fml.relauncher.ServerLaunchWrapper",
+  "nativesDir": "natives",
+  "args": [],
+  "oauthExpireTime": 0,
+  "extendedTokens": {
+  },
+  "env": "STD",
+  "moduleConf": {
+    "modules": [],
+    "modulePath": [],
+    "exports": {},
+    "opens": {},
+    "reads": {}
+  },
+  "enableHacks": false,
+  "properties": {},
+  "configServiceSettings": {
+    "disableLogging": false,
+    "checkServerNeedProperties": false,
+    "checkServerNeedHardware": false
+  }
+}
