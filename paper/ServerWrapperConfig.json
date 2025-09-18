@@ -6,7 +6,7 @@
     "/app/server.jar"
   ],
   "classLoaderConfig": "LAUNCHER",
-  "mainclass": "org.bukkit.craftbukkit.Main",
+  "mainclass": "io.papermc.paperclip.Main",
   "nativesDir": "natives",
   "args": ["nogui"],
   "oauthExpireTime": 0,
